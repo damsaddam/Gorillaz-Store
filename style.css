@@ -1,0 +1,618 @@
+body {
+  background-color: rgb(179, 179, 179);
+}
+/* Header */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  border-top: 3px solid navy;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-1 {
+  background-color: whitesmoke;
+}
+
+.header-1 img {
+  width: 22px;
+}
+
+.header-1 a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.header-1 a:hover {
+  color: navy;
+}
+
+.header-1 .line {
+  color: rgb(179, 179, 179);
+}
+
+.header-1 .follow .text {
+  color: black;
+  font-size: 15px;
+}
+
+.header-2 {
+  background-color: rgb(179, 179, 179);
+}
+
+.header-2 .text-category {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.header-2 span {
+  color: navy;
+  font-size: 19px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.header-2 span:hover {
+  color: black;
+}
+
+.header-2 .form-control {
+  width: 600px;
+  border: 1px solid transparent;
+}
+
+.header-2 .form-control:focus {
+  box-shadow: none;
+  border: 1px solid navy;
+}
+
+.header-2 .search-bottom a {
+  text-decoration: none;
+  color: navy;
+  font-size: 13px;
+}
+
+.header-2 .search-bottom a:hover {
+  color: rgb(83, 83, 83);
+}
+
+.header-2 .wrap-shop .icon-shop {
+  font-size: 38px;
+  cursor: pointer;
+  color: navy;
+}
+
+.header-2 .wrap-shop .icon-shop:hover {
+  cursor: pointer;
+  color: black;
+}
+/* End Header */
+
+/* Category Bar */
+.category-bar {
+  background-color: white;
+  z-index: 999999;
+  transition: 0.1s;
+  transform: rotateX(-75deg);
+  display: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.categoryStyle {
+  display: block;
+  transform: rotateX(0deg);
+  transform-origin: 0% 0%;
+}
+
+.head-category {
+  width: 100%;
+  overflow-x: scroll;
+  position: fixed;
+  top: 127px;
+  background-color: white;
+  overflow-y: none;
+}
+
+.head-category a {
+  text-decoration: none;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  border-radius: 10px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+  color: #969696;
+}
+
+.head-category a:hover {
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  border-bottom: 2px solid navy;
+  color: navy;
+}
+
+.category-bar .head-left {
+  overflow-y: scroll;
+  overflow-x: none;
+  height: 100vh;
+  padding-top: 210px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.category-bar .head-left h6 {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-bottom: 2px solid transparent;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.category-bar .head-left h6:hover {
+  font-size: 15px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 10px;
+  border-bottom: 2px solid navy;
+  font-family: 'Josefin Sans', sans-serif;
+  color: navy;
+}
+
+.category-bar .head-left span {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 20px;
+}
+
+.category-bar .head-left h5 {
+  font-weight: bold;
+  text-align: center;
+}
+/* End Category Bar */
+
+/* Menu-Bar */
+.header .menu-bar {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  right: 25px;
+  top: 107px;
+  color: navy;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px -1px 9px 0px rgba(0, 0, 0, 0.1);
+  display: none;
+  visibility: hidden;
+  transition: 0.1s;
+  transform: rotateX(-75deg);
+  z-index: 99999;
+}
+
+.header .menuBarStyle {
+  visibility: visible;
+  display: block;
+  transform: rotateX(0deg);
+  transform-origin: 0% 0%;
+}
+/* End Menu-Bar */
+
+/* Modal */
+.modal {
+  z-index: 99999;
+}
+
+.modal-content {
+  width: 129%;
+  position: relative;
+  top: 85px;
+  right: 55px;
+  background-color: black;
+  color: white;
+}
+
+.modal .list a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+}
+
+.modal .list a:hover {
+  color: white;
+}
+
+/* End modal */
+
+/* Carousel */
+.carousel {
+  position: relative;
+  top: 165px;
+  z-index: 0;
+}
+
+.carousel-indicators button {
+  height: 2px !important;
+}
+
+.carousel-inner {
+  border-radius: 6px;
+  width: 80%;
+}
+
+.carousel-inner img {
+  width: 800px;
+  height: 330px;
+}
+/* End Carousel */
+
+/* Category Pilihan */
+.category-pilihan {
+  position: relative;
+  top: 200px;
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.category-pilihan h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.category-pilihan .card-category {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.category-pilihan .card-category:hover {
+  border: 1px solid navy;
+}
+
+.category-pilihan h2 {
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.category-pilihan a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.category-pilihan a:hover {
+  color: navy;
+  padding-left: 20px;
+}
+
+.category-pilihan .box {
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 12px;
+}
+
+.category-pilihan button {
+  margin-top: 25px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.category-pilihan .item-menu {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.category-pilihan .item-dot {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.category-pilihan .form-control:focus {
+  border: 1px solid navy;
+  box-shadow: none;
+}
+
+.category-pilihan .form-select:focus {
+  border: 1px solid navy;
+  box-shadow: none;
+}
+
+.category-pilihan .menu-scroll {
+  overflow-x: scroll;
+  overflow-y: none;
+}
+
+.category-pilihan .item-scroll {
+  width: min-content;
+  border: 1px solid #dee2e6;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.category-pilihan .item-scroll:hover {
+  border: 1px solid navy;
+  cursor: pointer;
+}
+/* End Category Pilihan */
+
+/* Trending */
+.trending {
+  position: relative;
+  top: 238px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.trending h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.trending a {
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  color: navy;
+  font-size: 20px;
+}
+
+.trending a:hover {
+  color: rgb(83, 83, 83);
+}
+
+.trending .col {
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow: rgba(17, 17, 17, 0.9) 0px 1px 6px 0px;
+}
+
+.trending .col:hover {
+  border: 1px solid navy;
+}
+
+.trending h2 {
+  font-size: 17px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/* End Trending */
+
+/* Wrap Affix */
+.wrap-affix {
+  position: relative;
+  top: 276px;
+  margin-top: 20px;
+}
+
+.wrap-affix .box-affix h4 {
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+
+.box-affix {
+  width: 235px;
+  height: 90px;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 6px;
+}
+
+.bg-affix1 {
+  background: rgb(98, 0, 73);
+  background: rgb(57, 0, 98);
+  background: linear-gradient(90deg, rgb(206, 221, 0) 0%, rgb(57, 245, 0) 100%);
+}
+
+.bg-affix2 {
+  background: rgb(98, 0, 73);
+  background: rgb(57, 0, 98);
+  background: linear-gradient(90deg, rgb(57, 245, 0) 0%, rgb(206, 221, 0) 100%);
+}
+
+.wrap-affix .line1 {
+  width: 50px;
+  height: 2px;
+  border-radius: 10px;
+  background-color: black;
+  font-weight: bold;
+}
+
+.wrap-affix .col-2 .card {
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  box-shadow: rgba(17, 17, 17, 0.9) 0px 1px 6px 0px;
+}
+
+.wrap-affix .col-2 .card:hover {
+  border: 1px solid navy;
+}
+
+.wrap-affix .col-2 .card-body {
+  padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrap-affix .col-2 h4 {
+  font-weight: bold;
+}
+
+.wrap-affix .col-2 h6 {
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.wrap-affix .col-2 .badge {
+  font-size: 15px;
+}
+
+.wrap-affix .col-2 .star {
+  font-size: 17px;
+  color: navy;
+}
+
+.wrap-affix button {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+}
+/* End Wrap Affix */
+
+/* Content-1 */
+.content-1 {
+  position: relative;
+  top: 314px;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 20px;
+}
+
+.content-1 h4 {
+  color: black;
+  font-size: 20px;
+}
+
+.content-1 span {
+  color: navy;
+  font-weight: bold;
+}
+
+.content-1 button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid transparent;
+}
+
+.content-1 button:hover {
+  background-color: rgb(92, 103, 112);
+  border: 1px solid rgb(92, 103, 112);
+}
+
+.content-1 img {
+  width: 580px;
+  height: 350px;
+}
+/* End Content-1 */
+
+/* Content-2 */
+.content-2 {
+  position: relative;
+  top: 352px;
+  margin-top: 20px;
+}
+
+.content-2 h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+  color: black;
+}
+
+.content-2 p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+  text-align: justify;
+  color: black;
+}
+
+.content-2 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 17.5px;
+  font-style: italic;
+}
+
+.content-2 a:hover {
+  color: navy;
+}
+
+.content-2 .col-4 img {
+  width: 150px;
+}
+
+.content-2 .col-4 h5 {
+  font-family: 'Ubuntu', sans-serif;
+  color: navy;
+  font-weight: bold;
+  font-size: 21px;
+}
+/* End Content-2 */
+
+/* Footer */
+footer {
+  position: relative;
+  top: 390px;
+  margin-top: 20px;
+}
+
+footer h5 {
+  color: navy;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+footer h6 {
+  color: black;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer a:hover {
+  color: navy;
+}
+
+footer .copyright {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(92, 92, 92);
+}
+
+footer .love {
+  font-size: 15px;
+  color: red;
+}
+
+footer .love:hover {
+  color: navy;
+}
+
+footer .button {
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid transparent;
+}
+
+footer .button:hover {
+  background-color: rgb(92, 103, 112);
+  border: 1px solid rgb(92, 103, 112);
+}
+/* End footer */
