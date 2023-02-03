@@ -5,8 +5,8 @@ If you need a template for your web store, maybe this template is a solution for
 - CSS
 - JavaScript
 - Bootstrap v5 (https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-- Bootstrap Icon (https://icons.getbootstrap.com/)
-- Google Font (https://fonts.google.com/)
+- Bootstrap Icons (https://icons.getbootstrap.com/)
+- Google Fonts (https://fonts.google.com/)
 
 
 ## Features
