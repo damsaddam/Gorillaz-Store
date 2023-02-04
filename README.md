@@ -18,7 +18,9 @@ If you need a template for your web store, maybe this template is a solution for
 - Products Search Bar
 - Shopping Cart Bar
 - Slideshow/carousel
-- Choice Category and Top-Up Menu 
+- Choice Category and Top-Up Menu
+- Trending Menu
+- Special Discount Menu
 
 ## 🔗 My Linkedin
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pangeran-saddam-husain-2b5096207/)
