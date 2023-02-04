@@ -7,7 +7,7 @@ If you need a template for your web store, maybe this template is a solution for
 - Bootstrap v5 (https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - Bootstrap Icons (https://icons.getbootstrap.com/)
 - Google Fonts (https://fonts.google.com/)
-- Source Photos (These photos owned by someone, sorry I forgot who has these photos. I hope those who have these photos understand it)
+- Photos Source (These photos owned by someone, sorry I forgot who has these photos. I hope those who have these photos understand it)
 
 
 ## Features
